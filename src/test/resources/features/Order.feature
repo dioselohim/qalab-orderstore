@@ -13,9 +13,9 @@ Feature: Gestión de órdenes en PetStore
 
     Examples:
       | orderId  | petId  | quantity | shipDate                     | status | statusCode |
-      | 101      | 10     | 8        | 2025-01-25T20:59:09.684+0000 | placed | 200        |
-      | 102      | 11     | 5        | 2025-01-28T20:59:09.684+0000 | placed | 200        |
-      | 103      | 12     | 15       | 2025-01-29T20:59:09.684+0000 | placed | 200        |
+      | 200      | 4      | 5        | 2025-02-05T00:59:40.122+0000 | placed | 200        |
+      | 201      | 1      | 8        | 2025-02-05T00:59:40.122+0000 | placed | 200        |
+      | 202      | 7       | 5       | 2025-02-05T00:59:40.122+0000 | placed | 200        |
 
   @consultarOrder
   Scenario Outline: Consultar una orden existente en PetStore
@@ -26,6 +26,6 @@ Feature: Gestión de órdenes en PetStore
 
     Examples:
       | orderId  | petId  | quantity | shipDate                     | status | statusCode |
-      | 101      | 10     | 8        | 2025-01-25T20:59:09.684+0000 | placed | 200        |
-      | 102      | 11     | 5        | 2025-01-28T20:59:09.684+0000 | placed | 200        |
-      | 103      | 12     | 15       | 2025-01-29T20:59:09.684+0000 | placed | 200        |
+      | 200      | 4     | 5         | 2025-02-05T00:59:40.122+0000 | placed | 200        |
+      | 201      | 1     | 8         | 2025-02-05T00:59:40.122+0000 | placed | 200        |
+      | 202      | 7     | 5         | 2025-02-05T00:59:40.122+0000 | placed | 200        |
